@@ -5,7 +5,7 @@ body{
 .header{
     background: #1f2937;
     color: white;
-    padding: 0px 200px;
+    padding: 0px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,14 +37,15 @@ a{
 .intro{
     background: #1f2937;
     color: white;
-    padding: 100px 200px;
+    padding: 100px 10%;
     display: flex;
     flex-flow: row-reverse;
     justify-content: space-between;
+    align-items: center;
 }
 
 .intro-image{
-    max-width: 50%;
+    width: 50%;
     height: auto;
 }
 
